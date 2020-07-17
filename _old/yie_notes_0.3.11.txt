@@ -1,0 +1,25 @@
+YI-Engines 0.3.12 - 2016 
+
+- powerful e-motor
+- powerful MF-Waterpump
+
+YI-Engines 0.3.11 - 2016-Jun-27
+
+- new recipes for some things
+- empty canister can be smelt into iron-plates
+- 5 new export recipes (trade)
+- 1 new canister-types (dirty(c)-water)
+- Quantrinum-Reactor output-recipes changed (~ double MF-output)
+- some icons changed
+- additional plant-recipe, DNA-recipe
+- fixed all Fluid-Handle-Recipes (wrong over a long time - sry discovered only now)
+- Sulfuric-Acid + Substration turns into MF (Washer-Recipe)
+- support for green leafs
+
+
+YI-Engines 0.1.10 - 2016-Jun-17
+
+- more agriculture recipes (1 plant, 3 animals, 7 DNA-recipes)
+- new entity DNA-Splicer
+- new entity Eci-Machinery
+- product package-system for trade (->0.1.11)

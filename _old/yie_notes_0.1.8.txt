@@ -1,0 +1,7 @@
+YI-Engines 0.1.8 - 2016-Jan-09
+
+- new recipes for some things
+- new factory to generate Blue-Unified-Science
+- new materials such as H-Metal, Blue-Unified-Science, Fuseing-Center-Core
+- Stirling generates now direct pressured MF without gearbox
+- overheater uses burner

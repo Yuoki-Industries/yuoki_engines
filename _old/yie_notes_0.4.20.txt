@@ -1,0 +1,22 @@
+YI-Engines 0.4.20 - 2016-02-16
+
+changes/fixes:
+- reseach-center back to 220 MW power consume
+- overheater power-consume increase to 28 MW
+- new icons to DNA's
+- a lot recipes give now trade-signs
+- iron-casing needs now H-metal instead of iron-plates
+
+new: 
+- vacumatic-tubes in orange and green 0.5 and 1.5 belt-transportation-rate
+- sheet-metal
+- trade-node - easier laika-gate access
+- trade-import sealings/sheet-metal
+- Hydra-Farm (for fish breeding)
+- Smoker - smoke meat and fish
+- new product package - Can's
+- 3 fish-types
+- 8 types of final farm-products
+
+
+

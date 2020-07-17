@@ -1,0 +1,8 @@
+YI-Engines 0.1.5 - 2015-Aug-09
+
+- uses latest Fatmice MP-Code (can switched in control.lua)
+- still some WIP-Icons not for normal gameplays at the moment
+- fluids can transported with canister
+- you can now try play as Cowboy/Cowgirl (animal breed cycle)
+- slurry for better growing plants
+ 

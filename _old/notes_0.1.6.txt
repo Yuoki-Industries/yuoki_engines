@@ -1,0 +1,5 @@
+YI-Engines 0.1.6 - 2015-Aug-25
+
+- recipe-reorganisation moves fluids and handling to main-mod liquids-tab
+- a new tab "agronomie" collects all farming and animal stuff
+- some minor tweaks

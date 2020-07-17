@@ -1,0 +1,11 @@
+
+{
+"name": "yi_engines",
+"title": "Yuoki Industries - Engines (Addon)",
+"version": "0.8.39",
+"date": "2020-4-13",
+"author": "Yuoki Tani",
+"factorio_version": "0.18",
+"dependencies": ["base >= 0.18.2", "Yuoki >= 0.8.84"],
+"description": "additional/alternate power generation, MF, agriculture in a different way"
+}

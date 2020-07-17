@@ -1,0 +1,33 @@
+yi_engines_0.8.39
+	- pollution-fix provided by ChurchOrganist
+
+yi_engines_0.8.38
+	- compatible with factorio 0.18.3
+	- Small Electric Motor - Fluid output tiny change to avoid connecting problems
+	- Added MF-Heater (generates MF from electricity ... MF can used as fluid-battery)
+	
+yi_engines_0.8.37
+	- compatible with factorio 0.18.0
+	
+yi_engines_0.7.36
+	- 70 MW Turbine feeded from Rheinsberg 
+	- recipe to use petroleum-gas in fluid-fuel-engine 
+	- recipe to use hydrotin-gas in fluid-fuel-engine 
+	tested with factorio 0.17.79
+
+yi_engines_0.7.35
+	- fixed error-message with belts
+
+yi_engines_0.7.34
+	- tested with factorio 0.17.48
+	- recipes for Rheinsberg changed
+	- added new recipe for transforming 1000°C steam through turbine (need a little more balance)
+	- most (sell)-trade recipes changed to get more value (other materials)
+	- Fatmice-Cycle now useful again to remove a lot of pollution
+
+yi_engines_0.7.33
+	- tested with factorio 0.17.25
+	- fix the double-entry bug
+		
+yi_engines_0.7.32
+	first version for factorio 0.17.0
