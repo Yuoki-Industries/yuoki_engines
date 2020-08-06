@@ -31,3 +31,6 @@ require ("prototypes.e_wandler")
 
 
 --require ("yi_engines_016_data-updates")
+
+--add list of Yuoki Engines intermediate products to vanilla intermediates (thank you Codec)
+require ("prototypes.ye_intermediates_list")
