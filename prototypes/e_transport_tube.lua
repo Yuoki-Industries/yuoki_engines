@@ -183,7 +183,7 @@ data:extend(
 			sound =
 			{
 				filename = "__base__/sound/transport-belt.ogg",
-				volume = 0.4
+				volume = 0.17
 			},
 			max_sounds_per_type = 3
 		},
@@ -207,6 +207,8 @@ data:extend(
 		starting_side = ye_basic_belt_starting_side,
 		--ending_patch = ending_patch_prototype,
 		fast_replaceable_group = "transport-belt",
+		related_underground_belt = "ye_tranport_tube_orange_underground",
+		next_upgrade = "ye_tranport_tube_green",
 		speed = 0.046875,
 		connector_frame_sprites = transport_belt_connector_frame_sprites,
 		circuit_connector_sprites = transport_belt_circuit_connector_sprites,
@@ -254,6 +256,7 @@ data:extend(
 		starting_side = ye_green_belt_starting_side,
 		--ending_patch = ending_patch_prototype,
 		fast_replaceable_group = "transport-belt",
+		related_underground_belt = "ye_tranport_tube_green_underground",
 		speed = 0.15,
 		connector_frame_sprites = transport_belt_connector_frame_sprites,
 		circuit_connector_sprites = transport_belt_circuit_connector_sprites,
@@ -300,7 +303,8 @@ data:extend(
 		starting_top = ye_basic_belt_starting_top,
 		starting_bottom = ye_basic_belt_starting_bottom,
 		starting_side = ye_basic_belt_starting_side,
-		fast_replaceable_group = "underground-belt",
+		fast_replaceable_group = "transport-belt",
+		next_upgrade = "ye_tranport_tube_green_underground",
 		speed = 0.046875,
 		structure =
 		{
@@ -370,7 +374,7 @@ data:extend(
 		starting_top = ye_green_belt_starting_top,
 		starting_bottom = ye_green_belt_starting_bottom,
 		starting_side = ye_green_belt_starting_side,
-		fast_replaceable_group = "underground-belt",
+		fast_replaceable_group = "transport-belt",
 		speed = 0.15,
 		structure =
 		{
@@ -426,7 +430,8 @@ data:extend(
 		starting_bottom = ye_basic_belt_starting_bottom,
 		starting_side = ye_basic_belt_starting_side,
 		--ending_patch = ending_patch_prototype,
-		fast_replaceable_group = "splitter",
+		fast_replaceable_group = "transport-belt",
+		next_upgrade = "ye_tranport_tube_green_splitter",
 		speed = 0.046875,
 		structure =
 		{
@@ -460,7 +465,7 @@ data:extend(
 		starting_bottom = ye_green_belt_starting_bottom,
 		starting_side = ye_green_belt_starting_side,		
 		--ending_patch = ending_patch_prototype,
-		fast_replaceable_group = "splitter",
+		fast_replaceable_group = "transport-belt",
 		speed = 0.15,
 		structure =
 		{
