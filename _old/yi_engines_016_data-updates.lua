@@ -4,13 +4,13 @@ data.raw["item-subgroup"]["yie_fluid_handle"].order="4"
 -- Tweaking both order and values of the following recipes
 
 
-if data.raw.recipe["ye_slurry2ethanol_recipe"] then
-	data.raw.recipe["ye_slurry2ethanol_recipe"] = nil
+if data.raw.recipe["ye_slurry2ethanol"] then
+	data.raw.recipe["ye_slurry2ethanol"] = nil
 	local new_recipe = {
 		type = "recipe",
-		name = "ye_slurry2rawsyngas3_recipe",
+		name = "ye_slurry2rawsyngas3",
 		category = "chemistry", -- 
-		enabled = "true",
+		enabled = true,
 		energy_required = 90.00,
 		ingredients = {
 			{ type = "fluid", name = "ye_slurry" , amount = 150.0, },
@@ -27,13 +27,13 @@ if data.raw.recipe["ye_slurry2ethanol_recipe"] then
 end
 
 
-if data.raw.recipe["ye_biofuel_recipe"] then
-	data.raw.recipe["ye_biofuel_recipe"] = nil
+if data.raw.recipe["ye_biofuel"] then
+	data.raw.recipe["ye_biofuel"] = nil
 	local new_recipe = {
 		type = "recipe",
-		name = "ye_granulate_rabio_recipe",
-		category = "y-crushing-recipe", -- 
-		enabled = "true",
+		name = "ye_granulate_rabio",
+		category = "y-crushing", -- 
+		enabled = true,
 		energy_required = 1.00,
 		ingredients = {
 			{ type = "item", name = "ye_biomixed" , amount = 1.0, },
@@ -51,13 +51,13 @@ end
 -- Tweaking the order of the following recipes
 --data.raw.recipe["ye_granulate_corn_recipe"].order = "1"
 --data.raw.recipe["ye_granulate_vuger_recipe"].order = "2"
-data.raw.recipe["y_granulate_wood_recipe"].order = "3"
+data.raw.recipe["y_granulate_wood"].order = "3"
 --data.raw.recipe["ye_granulate_trifitan_recipe"].order = "4"
 
 -- Add the following recipes to productivity modules limitation table.
 for index, value in pairs(data.raw.module) do
 	if value.name:find("productivity%-module") and value.limitation then
-		table.insert(value.limitation, "ye_slurry2rawsyngas3_recipe")
+		table.insert(value.limitation, "ye_slurry2rawsyngas3")
 	end
 end
 

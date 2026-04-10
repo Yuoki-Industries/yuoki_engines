@@ -1,12 +1,11 @@
 data:extend({
 
-
 	--[[
 	{
 	  type = "recipe",
 	  name = "ye_mfheatmotor_m_recipe",
 	  category = "crafting", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "ye_emotor_m" , amount = 1.0, },
@@ -32,54 +31,101 @@ data:extend({
 	{
 		type = "assembling-machine",
 		name = "ye_mfheatmotor_m",
-		icon_size = 64, icon =  "__yi_engines__/graphics/entity/mf_heater_icon.png",
-		flags = {"placeable-neutral","placeable-player", "player-creation"},
-		minable = {mining_time = 0.5, result = "ye_mfheatmotor_m"},
+		icon_size = 64,
+		icon = "__yi_engines__/graphics/entity/mf_heater_icon.png",
+		flags = { "placeable-neutral", "placeable-player", "player-creation" },
+		minable = { mining_time = 0.5, result = "ye_mfheatmotor_m" },
 		max_health = 250,
 		corpse = "medium-remnants",
 		--resistances = {{type = "physical",percent = 60},},
-		fluid_boxes =
-		{
+		fluid_boxes = {
 			{
+				volume = 200,
 				production_type = "output",
 				base_area = 2,
 				base_level = 1,
 				pipe_connections = {
-					{type="output", position = {0,-3}},										
-					{type="output", position = {0, 3}},										
-				}
-			},										
+					{ flow_direction = "output", direction = defines.direction.north, position = { 0, -2 } },
+					{ flow_direction = "output", direction = defines.direction.south, position = { 0, 2 } },
+				},
+			},
 		},
-		collision_box = {{-2.3, -2.3}, {2.3, 2.3}},
-		selection_box = {{-2.5, -2.5}, {2.5, 2.5}},		
-		animation =
-		{
-			north = { 	filename = "__yi_engines__/graphics/entity/mfheater_ns.png",			
-						width = 512, height = 512, shift = {1.5, -0.5}, frame_count = 4, line_length = 4, scale = 0.5, animation_speed = 0.25,},	
-			south = {	filename = "__yi_engines__/graphics/entity/mfheater_ns.png",			
-						width = 512, height = 512, shift = {1.5, -0.5}, frame_count = 4, line_length = 4, scale = 0.5, animation_speed = 0.25,},	
-			east = {	filename = "__yi_engines__/graphics/entity/mfheater_ew.png",			
-						width = 512, height = 512, shift = {1.5, -0.5}, frame_count = 4, line_length = 4, scale = 0.5, animation_speed = 0.25, },	
-			west = {	filename = "__yi_engines__/graphics/entity/mfheater_ew.png",			
-						width = 512, height = 512, shift = {1.5, -0.5}, frame_count = 4, line_length = 4, scale = 0.5, animation_speed = 0.25,},	
-		},		
-		crafting_categories = {"yrcat_mfheatmotor_m"},
+		collision_box = { { -2.3, -2.3 }, { 2.3, 2.3 } },
+		selection_box = { { -2.5, -2.5 }, { 2.5, 2.5 } },
+		graphics_set = {
+			animation = {
+				north = {
+					layers = {
+						{
+							filename = "__yi_engines__/graphics/entity/mfheater_ns.png",
+							width = 512,
+							height = 512,
+							shift = { 1.5, -0.5 },
+							frame_count = 4,
+							line_length = 4,
+							scale = 0.5,
+							animation_speed = 0.25,
+						},
+					},
+				},
+				east = {
+					layers = {
+						{
+							filename = "__yi_engines__/graphics/entity/mfheater_ew.png",
+							width = 512,
+							height = 512,
+							shift = { 1.5, -0.5 },
+							frame_count = 4,
+							line_length = 4,
+							scale = 0.5,
+							animation_speed = 0.25,
+						},
+					},
+				},
+				south = {
+					layers = {
+						{
+							filename = "__yi_engines__/graphics/entity/mfheater_ns.png",
+							width = 512,
+							height = 512,
+							shift = { 1.5, -0.5 },
+							frame_count = 4,
+							line_length = 4,
+							scale = 0.5,
+							animation_speed = 0.25,
+						},
+					},
+				},
+				west = {
+					layers = {
+						{
+							filename = "__yi_engines__/graphics/entity/mfheater_ew.png",
+							width = 512,
+							height = 512,
+							shift = { 1.5, -0.5 },
+							frame_count = 4,
+							line_length = 4,
+							scale = 0.5,
+							animation_speed = 0.25,
+						},
+					},
+				},
+			},
+		},
+		crafting_categories = { "yrcat_mfheatmotor_m" },
 		crafting_speed = 1,
-		
+
 		module_specification = { module_slots = 0 },
-		allowed_effects = {"pollution"},
-		
-		energy_source = {		
+		allowed_effects = { "pollution" },
+
+		energy_source = {
 			type = "electric",
 			usage_priority = "secondary-input",
-			emissions = 0, 
+			emissions = 0,
 		},
-		energy_usage = "6.214MW",						
+		energy_usage = "6MW",
 		ingredient_count = 1,
-		order="a",
+		order = "a",
 		subgroup = "yie-engines",
-	},	
-
-
-
+	},
 })

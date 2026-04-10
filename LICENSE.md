@@ -5,10 +5,13 @@ do basically whatever with it you like, as long as you leave this file intact.
 
 The full legalese is below.
 
-Yuoki Industries - Engines (Addon) 0.8.43 is Copyright © 2016-2020 YuokiTani and others.
+Yuoki Industries - Engines (Addon) 0.8.43 is Copyright ï¿½ 2016-2020 YuokiTani and others.
 
 Acknowledgements
 Thank you to Michael Cowgill (ChurchOrganist) for providing the fixes for pollution
+
+From version 1.2.0 and on is currently maintained by JATMN
+Original License maintained and Original Copyright to YuokiTani
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
