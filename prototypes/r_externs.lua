@@ -5,11 +5,11 @@ data:extend({
 		name = "ye_trade_node",
 		ingredients = {
 			{ type = "item", name = "y-stargate", amount = 1 },
-			{ type = "item", name = "y-bluegear", amount = 2 },
-			{ type = "item", name = "iron-plate", amount = 4 },
+			{ type = "item", name = "y-quantrinum-charge", amount = 5 },
+			{ type = "item", name = "ye_science_blue", amount = 5 },
 		},
 		results = {
-			{ type = "item", name = "ye_trade_node", amount = 1 },
+			{ type = "item", name = "ye_trade_node", amount = 5 },
 		},
 		enabled = true,
 		-- result_count = 8,
