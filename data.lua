@@ -27,3 +27,4 @@ require("prototypes.e_wandler")
 require("prototypes.ye_intermediates_list")
 
 require("prototypes.j_airfilters") --- JATMN Airfilters
+require("prototypes.rie_space_age") --- Space Age Alternativs
