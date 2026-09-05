@@ -183,6 +183,27 @@ data:extend({
 		subgroup = "yie-fluids",
 	},
 
+	-- quantrium-reactor promethium-chunks
+	{
+		type = "recipe",
+		name = "y-mf1-q4",
+		category = "yrcat-mf1q", -- mechanical force quantrinum-reactor
+		enabled = true,
+		energy_required = 3.00,
+		ingredients = {
+			{ type = "item", name = "y-quantrinum-charge", amount = 2 },
+			{ type = "fluid", name = "y-mechanical-force", amount = 50},
+		},
+		results = {
+			{ type = "item", name = "promethium-asteroid-chunk", amount = 10},
+		},
+		--icon = "__space-age__/graphics/icons/promethium-asteroid-chunk.png",
+		order = "0",
+		group = "yi_engines",
+		subgroup = "yie-fluids",
+	},
+
+
 	-- gearbox transmission with lubricant
 	{
 		type = "recipe",

@@ -13,15 +13,23 @@ data:extend({
 		resistances = { { type = "physical", percent = 60 } },
 		fluid_boxes = {
 			{
-				volume = 200,
 				production_type = "output",
+				volume = 200,
 				base_area = 100,
 				base_level = 1,
 				pipe_connections = {
 					{ flow_direction = "output", direction = defines.direction.south, position = { 0, 2 } },
 					{ flow_direction = "output", direction = defines.direction.north, position = { 0, -2 } },
-					{ flow_direction = "output", direction = defines.direction.east, position = { 2, 0 } },
-					{ flow_direction = "output", direction = defines.direction.west, position = { -2, 0 } },
+				},
+			},
+			{
+				production_type = "input",
+				volume = 200,
+				base_area = 100,
+				base_level = 1,
+				pipe_connections = {
+					{ flow_direction = "input", direction = defines.direction.east, position = { 2, 0 } },
+					{ flow_direction = "input", direction = defines.direction.west, position = { -2, 0 } },
 				},
 			},
 		},
